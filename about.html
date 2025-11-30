@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Course | Algebra Portfolio</title>
+    <link rel="stylesheet" href="cl.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.75);
+            backdrop-filter: blur(10px);
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #ffffff22;
+            border-radius: 6px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 100px 20px 50px 20px;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.17);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 20px;
+            max-width: 900px;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* UNIFORM IMAGE SIZE */
+        img {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Learning.html">Learning</a>
+        <a href="Reflection.html">Reflection</a>
+    </nav>
+
+    <!-- ABOUT COURSE SECTION -->
+    <section style="background-image: url('AS.jpg');">
+        <div class="card">
+            <h2>About the Teacher</h2>
+            <p>Sir Jaynard Magpale Miranda is a fourth-year Mathematics Education student at PNU Mindanao. 
+            He graduated with high honors and follows the motto: <i>"Grind well, Hustle Hard."</i></p>
+
+            <img src="TR.jpg" alt="Teacher Photo">
+            <img src="www.jpg" alt="Math Image">
+
+            <h2>About the Course</h2>
+            <p>This Algebra course covers essential lessons, encourages problem-solving, and applies algebraic concepts to real-world situations through hands-on activities and collaborative learning.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; Christian Lawrence Pilotos | NEMSU-LC
+    </footer>
+
+</body>
+</html>

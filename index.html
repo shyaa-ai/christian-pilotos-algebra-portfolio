@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra Portfolio</title>
+    <link rel="stylesheet" href="cl.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* NAVIGATION BAR */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.75);
+            backdrop-filter: blur(10px);
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #ffffff22;
+            border-radius: 6px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 70px 20px;
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.17);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            padding: 35px;
+            border-radius: 20px;
+            max-width: 900px;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* UNIFORM IMAGE SIZE */
+        img {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;      /* Makes all images look uniform */
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#learning">Learning</a>
+        <a href="#reflection">Reflection</a>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" style="background-image: url('AS.jpg');">
+        <div class="card">
+            <h2>Sir Jaynard Magpale Miranda</h2>
+            <p>A fourth-year Mathematics Education student at PNU Mindanao, graduating with high honors and guided by the motto: <i>"Grind well, Hustle Hard."</i></p>
+
+            <img src="TR.jpg" alt="Teacher">
+            <img src="www.jpg" alt="Math">
+
+            <h2>About the Course</h2>
+            <p>This course encourages students to apply algebraic concepts through hands-on activities and collaborative learning.</p>
+        </div>
+    </section>
+
+    <!-- LEARNING SECTION -->
+    <section id="learning" style="background-image: url('DS.jpg');">
+        <div class="card">
+            <h2>My Learning</h2>
+            <p>I learned how to simplify expressions, solve equations and inequalities, understand functions, graph linear equations, factor polynomials, and use algebra in real-world applications.</p>
+        </div>
+    </section>
+
+    <!-- REFLECTION SECTION -->
+    <section id="reflection" style="background-image: url('RD.jpg');">
+        <div class="card">
+            <h2>Reflection</h2>
+
+            <img src="DR.jpg" alt="Reflection Photo">
+
+            <p>This course strengthened my logical reasoning, discipline, and confidence in algebra. Sir Jaynard’s guidance helped me develop problem-solving skills and a deeper appreciation for mathematics.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; Christian Lawrence Pilotos | NEMSU-LC
+    </footer>
+
+</body>
+</html>
